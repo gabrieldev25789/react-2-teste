@@ -1,0 +1,17 @@
+#section{
+    margin: 5rem auto;
+    text-align: center;
+    line-height: 36px;
+    background-color: rgb(50, 50, 65);
+    padding: 1rem;
+    width: 50%;
+    border-radius: 12px;
+    font-family: sans-serif;
+}
+
+#section p{
+    font-size: 1.3rem;
+    border-bottom: 2px solid rgb(37, 35, 35);
+    width: 50%;
+    margin: 1rem auto;
+}
