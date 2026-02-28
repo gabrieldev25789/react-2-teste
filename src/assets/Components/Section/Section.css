@@ -7,6 +7,7 @@
     width: 50%;
     border-radius: 12px;
     font-family: sans-serif;
+    align-items: center;
 }
 
 #section p{
@@ -14,4 +15,23 @@
     border-bottom: 2px solid rgb(37, 35, 35);
     width: 50%;
     margin: 1rem auto;
+}
+
+#btns{
+    padding: 0.5rem;
+    background-color: rgb(25, 25, 97);
+    text-align: center;
+    margin: 2rem auto;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    width: 40vh;
+}
+
+button{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    border-radius: 12px;
+    border: none;
+    cursor: pointer;
 }

@@ -1,0 +1,76 @@
+
+/* Container do form */
+form {
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+  margin: 1rem auto;
+}
+
+/* Espaçamento entre os campos */
+form div {
+  margin-bottom: 1rem;
+}
+
+/* Labels */
+label {
+  display: block;
+  margin-bottom: 0.3rem;
+  font-weight: 600;
+  color: #333;
+}
+
+/* Inputs e select */
+input,
+select {
+  width: 100%;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 0.9rem;
+  transition: 0.3s ease;
+}
+
+/* Efeito quando clica */
+input:focus,
+select:focus {
+  border-color: #4a90e2;
+  outline: none;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.4);
+}
+
+/* Checkbox alinhado */
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 0.5rem;
+}
+
+/* Botão */
+button {
+  width: 100%;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 8px;
+  background-color: #4a90e2;
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Hover do botão */
+button:hover {
+  background-color: #357abd;
+  transform: translateY(-2px);
+}
+
+/* Responsivo */
+@media (max-width: 500px) {
+  form {
+    margin: 1rem;
+  }
+}
